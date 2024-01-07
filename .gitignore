@@ -48,3 +48,6 @@ build/
 bin/
 Obj/
 *.user
+/exercise/c#/.vs/AdventOfCraft/FileContentIndex
+/exercise/c#/.vs/AdventOfCraft
+/solution/c#/.vs/AdventOfCraft
