@@ -12,25 +12,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01.Tests", "Day01\Day01.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01", "Day01\Day01\Day01.csproj", "{E590BBEB-7AB4-402A-8401-2A1C0F527501}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 2 - One level of indentation", "Day 2 - One level of indentation", "{6D089E60-B349-468E-BC1D-3DC4DC7D6C51}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 02 - One level of indentation", "Day 02 - One level of indentation", "{6D089E60-B349-468E-BC1D-3DC4DC7D6C51}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\docs\exercise\day02\challenge.md = ..\..\docs\exercise\day02\challenge.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02.Tests", "Day02\Day02.Tests\Day02.Tests.csproj", "{F812DB10-5139-4153-8EBD-65E6D9620045}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day02", "Day02\Day02\Day02.csproj", "{67696132-26E4-4883-87BF-60D5705E61D4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 3 - One dot per line", "Day 3 - One dot per line", "{D17C0749-D555-465F-A07A-826AE7BD025E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 03 - One dot per line", "Day 03 - One dot per line", "{D17C0749-D555-465F-A07A-826AE7BD025E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\docs\exercise\day03\challenge.md = ..\..\docs\exercise\day03\challenge.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day03", "Day03\Day03\Day03.csproj", "{42078835-3737-4A25-9593-ED589BF80C54}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day03.Tests", "Day03\Day03.Tests\Day03.Tests.csproj", "{C0386FEA-4627-4958-BCA8-62556E25859D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 4 - Identify the behavior under test and rewrite the tests", "Day 4 - Identify the behavior under test and rewrite the tests", "{10BCF13E-C7CA-4A89-86CD-0E8047139AA8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 04 - Identify the behavior under test and rewrite the tests", "Day 04 - Identify the behavior under test and rewrite the tests", "{10BCF13E-C7CA-4A89-86CD-0E8047139AA8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day04", "Day04\Day04\Day04.csproj", "{C9D0BF2C-224C-4030-90DD-4ECA2D1D3833}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day04.Tests", "Day04\Day04.Tests\Day04.Tests.csproj", "{6E908535-E191-4228-8A9C-E7A06DFD2E11}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 5 - No for loop authorized", "Day 5 - No for loop authorized", "{35D192B7-F9F6-41BB-8163-7595E3ADE21B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day 05 - No for loop authorized", "Day 05 - No for loop authorized", "{35D192B7-F9F6-41BB-8163-7595E3ADE21B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day05", "Day05\Day05\Day05.csproj", "{2E6FC488-AF67-4A84-83D5-48BB15164C28}"
 EndProject

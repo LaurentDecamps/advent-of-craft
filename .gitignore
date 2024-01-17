@@ -51,3 +51,8 @@ Obj/
 /exercise/c#/.vs/AdventOfCraft/FileContentIndex
 /exercise/c#/.vs/AdventOfCraft
 /solution/c#/.vs/AdventOfCraft
+/exercise/c#/.vs/ProjectEvaluation
+/exercise/c#/.NCrunch_AdventOfCraft
+*.ncrunchproject
+*.ncrunchsolution
+/solution/c#/.vs/ProjectEvaluation
