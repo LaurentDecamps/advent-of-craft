@@ -21,20 +21,14 @@ namespace Day03.Tests
         [Fact]
         public void The_Youngest_Pet_Owner_In_PopulationTest_Should_not_be_null_and_be_Lois()
         {
-            var filtered = PopulationTest.MinBy(NewMethod());
+            var filtered = PopulationTest.MinBy(YoungestPetAgeOfThePerson);
 
             filtered.Should().NotBeNull();
             filtered!.FirstName.Should().Be("Lois");
         }
 
-        private static Func<Person, int> NewMethod()
-        {
-            return person =>
-            {
-                var youngestPetByAge = person.Pets.MinBy(p => p.Age);
-                return youngestPetByAge?.Age
-                    ?? int.MaxValue;
-            };
-        }
+        private static int YoungestPetAgeOfThePerson(Person person) =>
+            person.Pets.MinBy(p => p.Age)?.Age
+                    ?? int.MaxValue;        
     }
 }
