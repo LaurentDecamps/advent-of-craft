@@ -3,7 +3,5 @@
 public static class DivisibleByExtension
 {
     public static bool IsDivisibleBy(this int input, int divisor)
-    {
-        return input % divisor == 0;
-    }
+        => input % divisor == 0;
 }

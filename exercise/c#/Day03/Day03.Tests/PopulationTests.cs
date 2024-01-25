@@ -6,7 +6,7 @@ namespace Day03.Tests
 {
     public class PopulationTests
     {
-        private static readonly IEnumerable<Person> Population = new List<Person>
+        private static readonly IEnumerable<Person> PopulationTest = new List<Person>
         {
             new("Peter", "Griffin", new Pet(Cat, "Tabby", 2)),
             new("Stewie", "Griffin", new Pet(Cat, "Dolly", 3), new Pet(Dog, "Brian", 9)),
@@ -19,12 +19,22 @@ namespace Day03.Tests
         };
 
         [Fact]
-        public void Who_Owns_The_Youngest_Pet()
+        public void The_Youngest_Pet_Owner_In_PopulationTest_Should_not_be_null_and_be_Lois()
         {
-            var filtered = Population.MinBy(person => { var youngestPetByAge = person.Pets.MinBy(p => p.Age); return youngestPetByAge?.Age ?? int.MaxValue; });
+            var filtered = PopulationTest.MinBy(NewMethod());
 
             filtered.Should().NotBeNull();
             filtered!.FirstName.Should().Be("Lois");
+        }
+
+        private static Func<Person, int> NewMethod()
+        {
+            return person =>
+            {
+                var youngestPetByAge = person.Pets.MinBy(p => p.Age);
+                return youngestPetByAge?.Age
+                    ?? int.MaxValue;
+            };
         }
     }
 }
